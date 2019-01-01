@@ -1,13 +1,12 @@
 .top-bar-list-item {
   display: inline-block;
+  color: #455599;
+  font-family: Roboto Mono;
+  font-size: 18px;
 }
 
 .top-bar-list {
   list-style-type: none;
-}
-
-.top-bar {
-  background-color: aquamarine;
 }
 
 /*# sourceMappingURL=style.css.map */

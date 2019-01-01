@@ -1,5 +1,11 @@
+$primary-color: #455599;
+$primary-font: Roboto Mono;
+
 .top-bar-list-item {
   display: inline-block;
+  color: $primary-color;
+  font-family: $primary-font;
+  font-size: 18px;
 }
 
 .top-bar-list {
@@ -7,5 +13,4 @@
 }
 
 .top-bar {
-  background-color: aquamarine;
 }
