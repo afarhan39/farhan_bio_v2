@@ -9,4 +9,21 @@
   list-style-type: none;
 }
 
+.dummy-box-one {
+  background-color: beige;
+}
+
+.dummy-box-two {
+  background-color: gainsboro;
+}
+
+.dummy-box-three {
+  background-color: thistle;
+}
+
+.section-top {
+  width: 600px;
+  height: 600px;
+}
+
 /*# sourceMappingURL=style.css.map */

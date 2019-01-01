@@ -1,4 +1,5 @@
 $primary-color: #455599;
+$section-header-color: #ec5051;
 $primary-font: Roboto Mono;
 
 .top-bar-list-item {
@@ -13,4 +14,21 @@ $primary-font: Roboto Mono;
 }
 
 .top-bar {
+}
+
+.dummy-box-one {
+  background-color: beige;
+}
+
+.dummy-box-two {
+  background-color: gainsboro;
+}
+
+.dummy-box-three {
+  background-color: thistle;
+}
+
+.section-top {
+  width: 600px;
+  height: 600px;
 }
