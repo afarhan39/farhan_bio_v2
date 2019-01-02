@@ -1,6 +1,6 @@
 $primary-color: #455599;
 $section-header-color: #ec5051;
-$primary-font: "Roboto Mono";
+$primary-font: "Roboto Mono", monospace;
 
 .top-bar-list-item {
   display: inline-block;
@@ -11,9 +11,9 @@ $primary-font: "Roboto Mono";
 
 .top-bar-list {
   list-style-type: none;
-}
-
-.top-bar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10% 0 10%;
 }
 
 .dummy-box-one {
@@ -37,13 +37,13 @@ $primary-font: "Roboto Mono";
   height: 600px;
   display: grid;
 
-  grid-template-columns: 1fr 3fr 2fr 1fr;
+  grid-template-columns: 1.5fr 3.5fr 1fr 2.5fr 1.5fr;
   grid-template-rows: 100px 400px 100px;
 
   grid-template-areas:
-    ". a b ."
-    ". c b ."
-    ". c b .";
+    ". a . b ."
+    ". c . b ."
+    ". c . b .";
 }
 
 .section-one-a {
@@ -74,6 +74,7 @@ $primary-font: "Roboto Mono";
   line-height: normal;
   font-size: 16px;
   color: white;
+  margin-right: 24px;
 }
 
 .btn-right {
