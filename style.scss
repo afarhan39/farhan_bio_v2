@@ -28,11 +28,6 @@ $primary-font: "Roboto Mono", monospace;
   background-color: thistle;
 }
 
-.section-top {
-  width: 600px;
-  height: 600px;
-}
-
 .section-one {
   height: 600px;
   display: grid;
@@ -104,6 +99,44 @@ h1 {
   font-weight: bold;
   line-height: normal;
   font-size: 50px;
-
   color: #ec5051;
+}
+
+h2 {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 40px;
+  color: #ec5051;
+}
+
+.section-two {
+  height: 750px;
+  display: grid;
+  background-image: url("bg_section_two.png");
+  background-size: 100% 100%;
+
+  margin-top: 100px;
+
+  grid-template-columns: 1.5fr 7fr 1.5fr;
+  grid-template-rows: 250px 500px;
+
+  grid-template-areas:
+    ". a ."
+    ". b .";
+}
+
+.section-two-a {
+  grid-area: a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.section-two-b {
+  grid-area: b;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
