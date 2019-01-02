@@ -1,6 +1,6 @@
 $primary-color: #455599;
 $section-header-color: #ec5051;
-$primary-font: Roboto Mono;
+$primary-font: "Roboto Mono";
 
 .top-bar-list-item {
   display: inline-block;
@@ -31,4 +31,83 @@ $primary-font: Roboto Mono;
 .section-top {
   width: 600px;
   height: 600px;
+}
+
+.section-one {
+  height: 600px;
+  display: grid;
+
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: 100px 400px 100px;
+
+  grid-template-areas:
+    "a b"
+    "c b"
+    "c b";
+}
+
+.section-one-a {
+  grid-area: a;
+}
+
+.section-one-b {
+  grid-area: b;
+}
+
+.section-one-c {
+  grid-area: c;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.content-c {
+  height: 350px;
+  width: 670px;
+}
+
+.btn-top {
+  width: 134px;
+  height: 40px;
+}
+
+.btn-left {
+  background-color: $primary-color;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.btn-right {
+  border: 2px solid $primary-color;
+  box-sizing: border-box;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  color: $primary-color;
+}
+
+h3 {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+
+  color: $primary-color;
+}
+
+h1 {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 50px;
+
+  color: #ec5051;
 }

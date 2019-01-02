@@ -1,7 +1,7 @@
 .top-bar-list-item {
   display: inline-block;
   color: #455599;
-  font-family: Roboto Mono;
+  font-family: "Roboto Mono";
   font-size: 18px;
 }
 
@@ -24,6 +24,78 @@
 .section-top {
   width: 600px;
   height: 600px;
+}
+
+.section-one {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: 100px 400px 100px;
+  grid-template-areas: "a b" "c b" "c b";
+}
+
+.section-one-a {
+  grid-area: a;
+}
+
+.section-one-b {
+  grid-area: b;
+}
+
+.section-one-c {
+  grid-area: c;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.content-c {
+  height: 350px;
+  width: 670px;
+}
+
+.btn-top {
+  width: 134px;
+  height: 40px;
+}
+
+.btn-left {
+  background-color: #455599;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.btn-right {
+  border: 2px solid #455599;
+  box-sizing: border-box;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  color: #455599;
+}
+
+h3 {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  color: #455599;
+}
+
+h1 {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 50px;
+  color: #ec5051;
 }
 
 /*# sourceMappingURL=style.css.map */
