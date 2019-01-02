@@ -29,9 +29,9 @@
 .section-one {
   height: 600px;
   display: grid;
-  grid-template-columns: 5fr 3fr;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
   grid-template-rows: 100px 400px 100px;
-  grid-template-areas: "a b" "c b" "c b";
+  grid-template-areas: ". a b ." ". c b ." ". c b .";
 }
 
 .section-one-a {
@@ -47,11 +47,6 @@
   justify-content: center;
   display: flex;
   align-items: center;
-}
-
-.content-c {
-  height: 350px;
-  width: 670px;
 }
 
 .btn-top {
