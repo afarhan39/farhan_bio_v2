@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30254c96-d118-4183-bf90-1518ed0c5e4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bg_section_two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ic_graphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ic_mobiledev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ic_webdev.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -28,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="280">
-                  <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+                <state relative-caret-position="475">
+                  <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -56,8 +52,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
+                <state relative-caret-position="400">
+                  <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -168,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1546327626086</updated>
       <workItem from="1546327627220" duration="3805000" />
-      <workItem from="1546436361089" duration="6031000" />
+      <workItem from="1546436361089" duration="8236000" />
     </task>
     <task id="LOCAL-00001" summary="[] init nav">
       <created>1546358693981</created>
@@ -219,21 +215,35 @@
       <option name="project" value="LOCAL" />
       <updated>1546440793196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[] lay down background image for section two&#10;[] added image for section two">
+      <created>1546443178439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546443178439</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[] completed section two">
+      <created>1546444899834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546444899834</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9836000" />
+    <option name="totallyTimeSpent" value="12041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -259,7 +269,9 @@
     <MESSAGE value="[] added image&#10;[] added base grid&#10;[] added flex for buttons" />
     <MESSAGE value="[] added more space on the edge" />
     <MESSAGE value="[] finished section one" />
-    <option name="LAST_COMMIT_MESSAGE" value="[] finished section one" />
+    <MESSAGE value="[] lay down background image for section two&#10;[] added image for section two" />
+    <MESSAGE value="[] completed section two" />
+    <option name="LAST_COMMIT_MESSAGE" value="[] completed section two" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.sass" />
@@ -280,16 +292,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ic_graphic.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        <state relative-caret-position="475">
+          <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
         </state>
       </provider>
     </entry>

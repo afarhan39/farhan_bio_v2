@@ -154,3 +154,26 @@ h3 {
   text-align: center;
   color: $primary-color;
 }
+
+.section-three {
+  height: 750px;
+  display: grid;
+  grid-template-columns: 1.5fr 7fr 1.5fr;
+  grid-template-rows: 100px 400px 250px;
+  grid-template-areas:
+    ". a ."
+    ". b ."
+    ". c .";
+}
+
+.section-three-a {
+  grid-area: a;
+}
+
+.section-three-b {
+  grid-area: b;
+}
+
+.section-three-c {
+  grid-area: c;
+}
