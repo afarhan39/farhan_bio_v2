@@ -156,6 +156,9 @@ h3 {
 
 .section-three-a {
   grid-area: a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .section-three-b {
@@ -164,6 +167,16 @@ h3 {
 
 .section-three-c {
   grid-area: c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.three-c-holder {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
