@@ -25,6 +25,15 @@ h3 {
   color: #455599;
 }
 
+p {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: black;
+}
+
 .dummy-box-one {
   background-color: beige;
 }
@@ -178,28 +187,17 @@ h3 {
 }
 
 .three-b-title {
-  font-family: "Roboto Mono", monospace;
-  font-style: normal;
   font-weight: bold;
-  line-height: normal;
-  font-size: 18px;
   margin: 0;
   padding: 0;
 }
 
 .three-b-subtitle {
-  font-family: "Roboto Mono", monospace;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 18px;
   padding: 0;
   margin: 0 0 20px;
 }
 
 .three-b-content {
-  font-family: "Roboto Mono", monospace;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   font-size: 14px;
@@ -242,6 +240,75 @@ h3 {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.section-four {
+  height: 650px;
+  display: grid;
+  background-image: url("bg_section_four.png");
+  background-size: 100% 100%;
+  grid-template-columns: 1.5fr 7fr 1.5fr;
+  grid-template-rows: 250px 150px 150px 100px;
+  grid-template-areas: ". a ." ". b ." ". c ." ". d .";
+}
+
+.section-four-a {
+  grid-area: a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.four-a-text {
+  color: white;
+  text-align: center;
+}
+
+.section-four-b {
+  grid-area: b;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.four-b-text {
+  color: white;
+  text-align: center;
+}
+
+.section-four-c {
+  grid-area: c;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.four-c-btn {
+  width: 190px;
+  height: 40px;
+  background-color: white;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  color: #455599;
+}
+
+.section-four-d {
+  grid-area: d;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.four-d-holder {
+  width: 100px;
+  align-self: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
