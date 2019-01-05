@@ -25,6 +25,15 @@ h3 {
   color: #455599;
 }
 
+h4 {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  color: #ec5051;
+}
+
 p {
   font-family: "Roboto Mono", monospace;
   font-style: normal;
@@ -365,11 +374,6 @@ p {
   width: auto;
 }
 
-.five-b-holder-two {
-  align-items: center;
-  flex-direction: unset;
-}
-
 .five-b-label {
   font-family: "Roboto Mono", monospace;
   font-style: normal;
@@ -393,6 +397,12 @@ p {
   resize: none;
 }
 
+.five-b-btn-holder {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 .five-b-btn {
   width: 134px;
   height: 40px;
@@ -404,6 +414,30 @@ p {
   font-size: 16px;
   color: white;
   margin-right: 24px;
+}
+
+.section-six {
+  height: 150px;
+  display: grid;
+  background-color: #f9fafc;
+  grid-template-columns: 4.5fr 1fr 4.5fr;
+  grid-template-rows: 60px 90px;
+  grid-template-areas: ". a ." ". b .";
+}
+
+.section-six-a {
+  grid-area: a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.section-six-b {
+  grid-area: b;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */
