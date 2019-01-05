@@ -327,3 +327,100 @@ p {
   display: flex;
   align-items: center;
 }
+
+.section-five {
+  height: 450px;
+  display: grid;
+  grid-template-columns: 2.5fr 5fr 2.5fr;
+  grid-template-rows: 100px 350px;
+  grid-template-areas:
+    ". a ."
+    ". b .";
+}
+
+.section-five-a {
+  grid-area: a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.section-five-b {
+  grid-area: b;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.five-b-box {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  width: 100%;
+  height: 100%;
+  padding: 30px 10px 30px 10px;
+  background: #ffffff;
+  box-shadow: 0 0 30px rgba(69, 85, 153, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.five-b-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.five-b-holder {
+  justify-content: center;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 40px 0 40px;
+}
+
+.five-b-holder-one {
+  width: auto;
+}
+
+.five-b-holder-two {
+  align-items: center;
+  flex-direction: unset;
+}
+
+.five-b-label {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.five-b-input {
+  border: none;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  width: 100%;
+  resize: none;
+}
+
+.five-b-btn {
+  width: 134px;
+  height: 40px;
+  background-color: $primary-color;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 16px;
+  color: white;
+  margin-right: 24px;
+}
