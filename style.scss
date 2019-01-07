@@ -167,6 +167,15 @@ p {
     ". a ."
     ". b ."
     ". . .";
+
+  @include breakpoint(tablet) {
+    height: 1450px;
+    grid-template-rows: 250px 1100px 100px;
+  }
+  @include breakpoint(mobile) {
+    height: 1450px;
+    grid-template-rows: 250px 1100px 100px;
+  }
 }
 
 .section-two-a {
@@ -181,6 +190,13 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @include breakpoint(tablet) {
+    flex-direction: column;
+  }
+  @include breakpoint(mobile) {
+    flex-direction: column;
+  }
 }
 
 .two-b-holder {
@@ -292,6 +308,9 @@ p {
 }
 
 .three-d-holder-img {
+  @include breakpoint(tablet) {
+    display: none;
+  }
   @include breakpoint(mobile) {
     display: none;
   }
