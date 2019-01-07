@@ -59,6 +59,16 @@ p {
 .dummy-box-three {
   background-color: thistle;
 }
+@media (max-width: 480px) and (min-width: 320px) {
+  .dummy-box-three {
+    background-color: blue;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .dummy-box-three {
+    background-color: blue;
+  }
+}
 
 .spacing {
   height: 100px;
