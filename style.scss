@@ -2,22 +2,6 @@ $primary-color: #455599;
 $section-header-color: #ec5051;
 $primary-font: "Roboto Mono", monospace;
 
-$breakpoints: (
-  "small": 767px,
-  "medium": 992px,
-  "large": 1200px
-) !default;
-
-@mixin respond-to($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media (min-width: map-get($breakpoints, $breakpoint)) {
-      @content;
-    }
-  } @else {
-    @warn "Yikes!";
-  }
-}
-
 @mixin breakpoint($point) {
   @if $point == largedesktop {
     @media (max-width: 1920px) and (min-width: 1441px) {
@@ -41,6 +25,11 @@ $breakpoints: (
       @content;
     }
   }
+}
+
+body {
+  background-color: black;
+  width: 100%;
 }
 
 h1 {
@@ -92,26 +81,23 @@ p {
 
 .dummy-box-two {
   background-color: gainsboro;
-
-  @include respond-to("small") {
-    background-color: blue;
-  }
 }
 
 .dummy-box-three {
   background-color: thistle;
 
-  @include breakpoint(mobile) {
-    background-color: blue;
-  }
-
   @include breakpoint(desktop) {
-    background-color: blue;
+    background-color: red;
+  }
+  @include breakpoint(tablet) {
+    background-color: red;
   }
 }
 
 .spacing {
+  display: block;
   height: 100px;
+  width: 100%;
 }
 
 .section-one {

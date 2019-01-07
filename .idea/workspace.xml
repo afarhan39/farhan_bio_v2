@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30254c96-d118-4183-bf90-1518ed0c5e4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -24,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="873">
-                  <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+                <state relative-caret-position="436">
+                  <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -62,6 +61,8 @@
       <find>style=&quot;display: inline-block&quot;</find>
       <find>dumm</find>
       <find>hire me</find>
+      <find>respond-to</find>
+      <find>body</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;topbar&quot;</replace>
@@ -119,7 +120,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,7 +155,7 @@
       <workItem from="1546483931453" duration="199000" />
       <workItem from="1546487056694" duration="3000" />
       <workItem from="1546610422152" duration="12508000" />
-      <workItem from="1546874438565" duration="2740000" />
+      <workItem from="1546874438565" duration="4187000" />
     </task>
     <task id="LOCAL-00001" summary="[] init nav">
       <created>1546358693981</created>
@@ -268,11 +269,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546876959228</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[] using mixin by cerah">
+      <created>1546877426681</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546877426681</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27787000" />
+    <option name="totallyTimeSpent" value="29234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -317,7 +325,8 @@
     <MESSAGE value="[] completed section 5" />
     <MESSAGE value="[] completed section 6" />
     <MESSAGE value="[] figuring out mixin" />
-    <option name="LAST_COMMIT_MESSAGE" value="[] figuring out mixin" />
+    <MESSAGE value="[] using mixin by cerah" />
+    <option name="LAST_COMMIT_MESSAGE" value="[] using mixin by cerah" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.sass" />
@@ -373,17 +382,17 @@
     <entry file="file://$PROJECT_DIR$/ic_left.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="436">
+          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+        <state relative-caret-position="405">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  width: 100%;
+}
+
 h1 {
   font-family: "Roboto Mono", monospace;
   font-style: normal;
@@ -50,28 +55,25 @@ p {
 .dummy-box-two {
   background-color: gainsboro;
 }
-@media (min-width: 767px) {
-  .dummy-box-two {
-    background-color: blue;
-  }
-}
 
 .dummy-box-three {
   background-color: thistle;
 }
-@media (max-width: 480px) and (min-width: 320px) {
-  .dummy-box-three {
-    background-color: blue;
-  }
-}
 @media (max-width: 1440px) and (min-width: 1025px) {
   .dummy-box-three {
-    background-color: blue;
+    background-color: red;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .dummy-box-three {
+    background-color: red;
   }
 }
 
 .spacing {
+  display: block;
   height: 100px;
+  width: 100%;
 }
 
 .section-one {
