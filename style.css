@@ -50,6 +50,11 @@ p {
 .dummy-box-two {
   background-color: gainsboro;
 }
+@media (min-width: 767px) {
+  .dummy-box-two {
+    background-color: blue;
+  }
+}
 
 .dummy-box-three {
   background-color: thistle;
