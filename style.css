@@ -46,6 +46,21 @@ p {
 .dummy-box-one {
   background-color: beige;
 }
+@media (max-width: 2560px) and (min-width: 769px) {
+  .dummy-box-one {
+    background-color: red;
+  }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+  .dummy-box-one {
+    background-color: blue;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .dummy-box-one {
+    background-color: green;
+  }
+}
 
 .dummy-box-two {
   background-color: gainsboro;
@@ -53,16 +68,6 @@ p {
 
 .dummy-box-three {
   background-color: thistle;
-}
-@media (max-width: 1440px) and (min-width: 1025px) {
-  .dummy-box-three {
-    background-color: red;
-  }
-}
-@media (max-width: 1024px) and (min-width: 768px) {
-  .dummy-box-three {
-    background-color: red;
-  }
 }
 
 .spacing {
@@ -261,6 +266,12 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .three-d-holder-img {
+    display: none;
+  }
 }
 
 .section-four {

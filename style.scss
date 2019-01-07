@@ -3,21 +3,12 @@ $section-header-color: #ec5051;
 $primary-font: "Roboto Mono", monospace;
 
 @mixin breakpoint($point) {
-  @if $point == largedesktop {
-    @media (max-width: 1920px) and (min-width: 1441px) {
-      @content;
-    }
-  }
   @if $point == desktop {
-    @media (max-width: 1440px) and (min-width: 1025px) {
+    @media (max-width: 2560px) and (min-width: 769px) {
       @content;
     }
   } @else if $point == tablet {
-    @media (max-width: 1024px) and (min-width: 768px) {
-      @content;
-    }
-  } @else if $point == mobilerotate {
-    @media (max-width: 767px) and (min-width: 481px) {
+    @media (max-width: 768px) and (min-width: 481px) {
       @content;
     }
   } @else if $point == mobile {
@@ -72,6 +63,16 @@ p {
 
 .dummy-box-one {
   background-color: beige;
+
+  @include breakpoint(desktop) {
+    background-color: red;
+  }
+  @include breakpoint(tablet) {
+    background-color: blue;
+  }
+  @include breakpoint(mobile) {
+    background-color: green;
+  }
 }
 
 .dummy-box-two {
@@ -80,13 +81,6 @@ p {
 
 .dummy-box-three {
   background-color: thistle;
-
-  @include breakpoint(desktop) {
-    background-color: red;
-  }
-  @include breakpoint(tablet) {
-    background-color: red;
-  }
 }
 
 .spacing {
@@ -295,6 +289,12 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.three-d-holder-img {
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .section-four {
