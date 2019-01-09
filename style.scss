@@ -25,6 +25,7 @@ h1 {
   line-height: normal;
   font-size: 50px;
   color: #ec5051;
+  text-align: center;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h2 {
   line-height: normal;
   font-size: 40px;
   color: #ec5051;
+  text-align: center;
 }
 h3 {
   font-family: $primary-font;
@@ -42,6 +44,7 @@ h3 {
   line-height: normal;
   font-size: 32px;
   color: $primary-color;
+  text-align: center;
 }
 h4 {
   font-family: $primary-font;
@@ -50,6 +53,7 @@ h4 {
   line-height: normal;
   font-size: 24px;
   color: #ec5051;
+  text-align: center;
 }
 
 p {
@@ -98,10 +102,30 @@ p {
     ". a . b ."
     ". c . b ."
     ". c . b .";
+
+  @include breakpoint(tablet) {
+    grid-template-areas:
+      ". c . b ."
+      ". c . b ."
+      ". c . b .";
+  }
+  @include breakpoint(mobile) {
+    grid-template-areas:
+      ". c . b ."
+      ". c . b ."
+      ". c . b .";
+  }
 }
 
 .section-one-a {
   grid-area: a;
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .one-a-list {
@@ -129,6 +153,37 @@ p {
   align-items: center;
 }
 
+.one-c-container {
+  padding: 10px;
+
+  @include breakpoint(tablet) {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @include breakpoint(mobile) {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.one-c-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @include breakpoint(mobile) {
+    flex-direction: column;
+  }
+
+  @include breakpoint(tablet) {
+    flex-direction: column;
+  }
+}
+
 .one-c-btn {
   width: 134px;
   height: 40px;
@@ -142,7 +197,6 @@ p {
   line-height: normal;
   font-size: 16px;
   color: white;
-  margin-right: 24px;
 }
 
 .one-c-btn-right {
