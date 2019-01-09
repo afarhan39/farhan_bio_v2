@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30254c96-d118-4183-bf90-1518ed0c5e4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -24,8 +23,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="35">
-                  <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+                <state relative-caret-position="375">
+                  <caret line="30" column="31" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="31" />
+                  <folding>
+                    <element signature="n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -37,8 +39,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-91">
-                  <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
+                <state relative-caret-position="347">
+                  <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
                 </state>
               </provider>
             </entry>
@@ -78,6 +80,8 @@
       <find>h3</find>
       <find>h4</find>
       <find>dumm</find>
+      <find>dummy</find>
+      <find>one-c-</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;topbar&quot;</replace>
@@ -97,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/style.sass" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
   </component>
@@ -178,7 +182,7 @@
       <workItem from="1546610422152" duration="12508000" />
       <workItem from="1546874438565" duration="9681000" />
       <workItem from="1546925910904" duration="132000" />
-      <workItem from="1547040104078" duration="11225000" />
+      <workItem from="1547040104078" duration="12343000" />
     </task>
     <task id="LOCAL-00001" summary="[] init nav">
       <created>1546358693981</created>
@@ -390,11 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547050084814</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[] section six done&#10;[] partial section 5 done&#10;[] left for mobile">
+      <created>1547051719544</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547051719544</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[] done responsive">
+      <created>1547052444532</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547052444532</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46085000" />
+    <option name="totallyTimeSpent" value="47203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -434,8 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[] added more space on the edge" />
-    <MESSAGE value="[] finished section one" />
     <MESSAGE value="[] lay down background image for section two&#10;[] added image for section two" />
     <MESSAGE value="[] completed section two" />
     <MESSAGE value="[] init section three" />
@@ -459,7 +475,9 @@
     <MESSAGE value="[] clean up a bit" />
     <MESSAGE value="[] section three wip 1" />
     <MESSAGE value="[] section three and four done" />
-    <option name="LAST_COMMIT_MESSAGE" value="[] section three and four done" />
+    <MESSAGE value="[] section six done&#10;[] partial section 5 done&#10;[] left for mobile" />
+    <MESSAGE value="[] done responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="[] done responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.sass" />
@@ -518,17 +536,20 @@
     <entry file="file://$PROJECT_DIR$/img_exp_2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
+        <state relative-caret-position="375">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+        <state relative-caret-position="347">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
         </state>
       </provider>
     </entry>

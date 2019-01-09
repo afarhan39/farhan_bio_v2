@@ -178,6 +178,15 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include breakpoint(desktop) {
+    justify-content: start;
+
+    h1,
+    h3 {
+      text-align: start;
+    }
+  }
 }
 
 .one-c-container {
@@ -187,7 +196,7 @@ p {
 .one-c-btn-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 
   @include breakpoint(mobile) {
