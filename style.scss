@@ -8,7 +8,7 @@ $primary-font: "Roboto Mono", monospace;
       @content;
     }
   } @else if $point == tablet {
-    @media (max-width: 768px) and (min-width: 481px) {
+    @media (max-width: 1024px) and (min-width: 481px) {
       @content;
     }
   } @else if $point == mobile {
@@ -130,10 +130,10 @@ p {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  padding: 0;
 }
 
 .one-a-list-item {
-  display: inline-block;
   color: $primary-color;
   font-family: $primary-font;
   font-size: 18px;
@@ -155,32 +155,20 @@ p {
 
 .section-one-c {
   grid-area: c;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .one-c-container {
   padding: 10px;
-
-  @include breakpoint(tablet) {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  //@include breakpoint(mobile) {
-  //  justify-content: center;
-  //  display: flex;
-  //  flex-direction: column;
-  //  align-items: center;
-  //}
 }
 
 .one-c-btn-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
   @include breakpoint(mobile) {
     flex-direction: column;
@@ -209,6 +197,7 @@ p {
 
 .one-c-btn-right {
   border: 2px solid $primary-color;
+  background-color: white;
   box-sizing: border-box;
   font-family: $primary-font;
   font-style: normal;
