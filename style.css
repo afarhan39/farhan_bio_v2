@@ -7,6 +7,11 @@ h1 {
   color: #ec5051;
   text-align: center;
 }
+@media (max-width: 644px) and (min-width: 320px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 
 h2 {
   font-family: "Roboto Mono", monospace;
@@ -16,6 +21,11 @@ h2 {
   font-size: 40px;
   color: #ec5051;
   text-align: center;
+}
+@media (max-width: 644px) and (min-width: 320px) {
+  h2 {
+    font-size: 32px;
+  }
 }
 
 h3 {
@@ -27,6 +37,11 @@ h3 {
   color: #455599;
   text-align: center;
 }
+@media (max-width: 644px) and (min-width: 320px) {
+  h3 {
+    font-size: 24px;
+  }
+}
 
 h4 {
   font-family: "Roboto Mono", monospace;
@@ -36,6 +51,11 @@ h4 {
   font-size: 24px;
   color: #ec5051;
   text-align: center;
+}
+@media (max-width: 644px) and (min-width: 320px) {
+  h4 {
+    font-size: 18px;
+  }
 }
 
 p {
@@ -255,7 +275,7 @@ p {
 .section-three {
   height: 750px;
   display: grid;
-  grid-template-columns: 1.5fr 7fr 1.5fr;
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: 100px 250px 150px 250px;
   grid-template-areas: ". a ." ". b ." ". c ." ". d .";
 }
@@ -349,6 +369,43 @@ p {
   flex-direction: row;
   justify-content: space-between;
 }
+.section-three-d figure {
+  margin: 0;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+}
+.section-three-d .fig-1 {
+  background-image: url("img_exp_1.png");
+}
+.section-three-d .fig-2 {
+  background-image: url("img_exp_2.png");
+}
+@media (max-width: 1024px) and (min-width: 645px) {
+  .section-three-d .fig-2 {
+    display: none;
+  }
+}
+@media (max-width: 644px) and (min-width: 320px) {
+  .section-three-d .fig-2 {
+    display: none;
+  }
+}
+.section-three-d .fig-3 {
+  background-image: url("img_exp_3.png");
+}
+@media (max-width: 1024px) and (min-width: 645px) {
+  .section-three-d .fig-3 {
+    display: none;
+  }
+}
+@media (max-width: 644px) and (min-width: 320px) {
+  .section-three-d .fig-3 {
+    display: none;
+  }
+}
 
 .three-d-holder {
   justify-content: center;
@@ -362,22 +419,15 @@ p {
   }
 }
 
-@media (max-width: 1024px) and (min-width: 645px) {
-  .three-d-holder-img {
-    display: none;
-  }
-}
-@media (max-width: 644px) and (min-width: 320px) {
-  .three-d-holder-img {
-    display: none;
-  }
-}
-
 .section-four {
+  margin: 0;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 650px;
   display: grid;
   background-image: url("bg_section_four.png");
-  background-size: 100% 100%;
   grid-template-columns: 1.5fr 7fr 1.5fr;
   grid-template-rows: 250px 150px 150px 100px;
   grid-template-areas: ". a ." ". b ." ". c ." ". d .";

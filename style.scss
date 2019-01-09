@@ -26,6 +26,10 @@ h1 {
   font-size: 50px;
   color: #ec5051;
   text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 40px;
+  }
 }
 
 h2 {
@@ -36,6 +40,10 @@ h2 {
   font-size: 40px;
   color: #ec5051;
   text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 32px;
+  }
 }
 h3 {
   font-family: $primary-font;
@@ -45,6 +53,10 @@ h3 {
   font-size: 32px;
   color: $primary-color;
   text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 24px;
+  }
 }
 h4 {
   font-family: $primary-font;
@@ -54,6 +66,10 @@ h4 {
   font-size: 24px;
   color: #ec5051;
   text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 18px;
+  }
 }
 
 p {
@@ -274,7 +290,7 @@ p {
 .section-three {
   height: 750px;
   display: grid;
-  grid-template-columns: 1.5fr 7fr 1.5fr;
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: 100px 250px 150px 250px;
   grid-template-areas:
     ". a ."
@@ -370,6 +386,39 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  figure {
+    margin: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 260px;
+  }
+
+  .fig-1 {
+    background-image: url("img_exp_1.png");
+  }
+
+  .fig-2 {
+    background-image: url("img_exp_2.png");
+    @include breakpoint(tablet) {
+      display: none;
+    }
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
+
+  .fig-3 {
+    background-image: url("img_exp_3.png");
+    @include breakpoint(tablet) {
+      display: none;
+    }
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
 }
 
 .three-d-holder {
@@ -383,20 +432,16 @@ p {
   }
 }
 
-.three-d-holder-img {
-  @include breakpoint(tablet) {
-    display: none;
-  }
-  @include breakpoint(mobile) {
-    display: none;
-  }
-}
-
 .section-four {
+  margin: 0;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+
   height: 650px;
   display: grid;
   background-image: url("bg_section_four.png");
-  background-size: 100% 100%;
   grid-template-columns: 1.5fr 7fr 1.5fr;
   grid-template-rows: 250px 150px 150px 100px;
   grid-template-areas:
