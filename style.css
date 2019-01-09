@@ -111,15 +111,13 @@ p {
     display: none;
   }
 }
-
-.one-a-list {
+.section-one-a ol {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
 }
-
-.one-a-list-item {
+.section-one-a ol li {
   color: #455599;
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
@@ -165,14 +163,12 @@ p {
     flex-direction: column;
   }
 }
-
-.one-c-btn {
+.one-c-btn-container button {
   width: 134px;
   height: 40px;
   margin: 5px;
 }
-
-.one-c-btn-left {
+.one-c-btn-container .btn-left {
   background-color: #455599;
   font-family: "Roboto Mono", monospace;
   font-style: normal;
@@ -181,8 +177,7 @@ p {
   font-size: 16px;
   color: white;
 }
-
-.one-c-btn-right {
+.one-c-btn-container .btn-right {
   border: 2px solid #455599;
   background-color: white;
   box-sizing: border-box;
