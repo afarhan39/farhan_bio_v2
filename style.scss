@@ -3,25 +3,16 @@ $section-header-color: #ec5051;
 $primary-font: "Roboto Mono", monospace;
 
 @mixin breakpoint($point) {
-  @if $point == largedesktop {
-    @media (max-width: 1920px) and (min-width: 1441px) {
-      @content;
-    }
-  }
   @if $point == desktop {
-    @media (max-width: 1440px) and (min-width: 1025px) {
+    @media (max-width: 2560px) and (min-width: 769px) {
       @content;
     }
   } @else if $point == tablet {
-    @media (max-width: 1024px) and (min-width: 768px) {
-      @content;
-    }
-  } @else if $point == mobilerotate {
-    @media (max-width: 767px) and (min-width: 481px) {
+    @media (max-width: 1024px) and (min-width: 645px) {
       @content;
     }
   } @else if $point == mobile {
-    @media (max-width: 480px) and (min-width: 320px) {
+    @media (max-width: 644px) and (min-width: 320px) {
       @content;
     }
   }
@@ -34,6 +25,11 @@ h1 {
   line-height: normal;
   font-size: 50px;
   color: #ec5051;
+  text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 40px;
+  }
 }
 
 h2 {
@@ -43,6 +39,11 @@ h2 {
   line-height: normal;
   font-size: 40px;
   color: #ec5051;
+  text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 32px;
+  }
 }
 h3 {
   font-family: $primary-font;
@@ -51,6 +52,11 @@ h3 {
   line-height: normal;
   font-size: 32px;
   color: $primary-color;
+  text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 24px;
+  }
 }
 h4 {
   font-family: $primary-font;
@@ -59,6 +65,11 @@ h4 {
   line-height: normal;
   font-size: 24px;
   color: #ec5051;
+  text-align: center;
+
+  @include breakpoint(mobile) {
+    font-size: 18px;
+  }
 }
 
 p {
@@ -72,94 +83,157 @@ p {
 
 .dummy-box-one {
   background-color: beige;
-}
-
-.dummy-box-two {
-  background-color: gainsboro;
-}
-
-.dummy-box-three {
-  background-color: thistle;
 
   @include breakpoint(desktop) {
     background-color: red;
   }
   @include breakpoint(tablet) {
-    background-color: red;
+    background-color: blue;
   }
+  @include breakpoint(mobile) {
+    background-color: green;
+  }
+}
+
+.dummy-box-two {
+  background-color: blueviolet;
+}
+
+.dummy-box-three {
+  background-color: thistle;
 }
 
 .spacing {
   display: block;
-  height: 100px;
+  height: 20px;
   width: 100%;
 }
 
 .section-one {
-  height: 600px;
+  height: 550px;
   display: grid;
   grid-template-columns: 1.5fr 3.5fr 1fr 2.5fr 1.5fr;
-  grid-template-rows: 100px 400px 100px;
+  grid-template-rows: 50px 400px 100px;
   grid-template-areas:
     ". a . b ."
     ". c . b ."
     ". c . b .";
+
+  @include breakpoint(tablet) {
+    grid-template-columns: 3.5fr 2.5fr;
+    grid-template-areas:
+      "a b"
+      "c b"
+      "c b";
+  }
+  @include breakpoint(mobile) {
+    height: 1100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 550px 550px;
+
+    grid-template-areas:
+      "b"
+      "c";
+  }
 }
 
 .section-one-a {
   grid-area: a;
-}
 
-.one-a-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 10% 0 10%;
-}
+  @include breakpoint(mobile) {
+    display: none;
+  }
 
-.one-a-list-item {
-  display: inline-block;
-  color: $primary-color;
-  font-family: $primary-font;
-  font-size: 18px;
+  ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+
+    li {
+      color: $primary-color;
+      font-family: $primary-font;
+      font-size: 18px;
+    }
+  }
 }
 
 .section-one-b {
   grid-area: b;
+
+  figure {
+    margin: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url("img_self.png");
+    width: 100%;
+    height: 550px;
+  }
 }
 
 .section-one-c {
   grid-area: c;
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
+
+  @include breakpoint(desktop) {
+    justify-content: start;
+
+    h1,
+    h3 {
+      text-align: start;
+    }
+  }
 }
 
-.one-c-btn {
-  width: 134px;
-  height: 40px;
+.one-c-container {
+  padding: 10px;
 }
 
-.one-c-btn-left {
-  background-color: $primary-color;
-  font-family: $primary-font;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 16px;
-  color: white;
-  margin-right: 24px;
-}
+.one-c-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 
-.one-c-btn-right {
-  border: 2px solid $primary-color;
-  box-sizing: border-box;
-  font-family: $primary-font;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 16px;
-  color: $primary-color;
+  @include breakpoint(mobile) {
+    flex-direction: column;
+  }
+
+  @include breakpoint(tablet) {
+    flex-direction: column;
+  }
+
+  button {
+    width: 134px;
+    height: 40px;
+    margin: 5px;
+  }
+
+  .btn-left {
+    background-color: $primary-color;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    color: white;
+  }
+
+  .btn-right {
+    border: 2px solid $primary-color;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    color: $primary-color;
+  }
 }
 
 .section-two {
@@ -173,6 +247,15 @@ p {
     ". a ."
     ". b ."
     ". . .";
+
+  @include breakpoint(tablet) {
+    height: 1450px;
+    grid-template-rows: 250px 1100px 100px;
+  }
+  @include breakpoint(mobile) {
+    height: 1450px;
+    grid-template-rows: 250px 1100px 100px;
+  }
 }
 
 .section-two-a {
@@ -187,6 +270,13 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @include breakpoint(tablet) {
+    flex-direction: column;
+  }
+  @include breakpoint(mobile) {
+    flex-direction: column;
+  }
 }
 
 .two-b-holder {
@@ -209,13 +299,23 @@ p {
 .section-three {
   height: 750px;
   display: grid;
-  grid-template-columns: 1.5fr 7fr 1.5fr;
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: 100px 250px 150px 250px;
   grid-template-areas:
     ". a ."
     ". b ."
     ". c ."
     ". d .";
+
+  @include breakpoint(mobile) {
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1.5fr 7fr 1.5fr;
+    grid-template-rows: 100px 250px;
+    grid-template-areas:
+      ". a ."
+      ". d .";
+  }
 }
 
 .section-three-a {
@@ -229,11 +329,15 @@ p {
   grid-area: b;
   display: flex;
   flex-direction: row-reverse;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .three-b-box {
   box-sizing: border-box;
-  width: 370px;
+  max-width: 370px;
   word-wrap: break-word;
   padding: 15px;
   background: #ffffff;
@@ -265,6 +369,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .three-c-timeline {
@@ -279,8 +387,7 @@ p {
 
 .three-c-thumb {
   z-index: 200;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 10% 0 10%;
 }
 
 .section-three-d {
@@ -288,6 +395,39 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  figure {
+    margin: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 260px;
+  }
+
+  .fig-1 {
+    background-image: url("img_exp_1.png");
+  }
+
+  .fig-2 {
+    background-image: url("img_exp_2.png");
+    @include breakpoint(tablet) {
+      display: none;
+    }
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
+
+  .fig-3 {
+    background-image: url("img_exp_3.png");
+    @include breakpoint(tablet) {
+      display: none;
+    }
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
 }
 
 .three-d-holder {
@@ -295,15 +435,24 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .section-four {
+  margin: 0;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+
   height: 650px;
   display: grid;
   background-image: url("bg_section_four.png");
-  background-size: 100% 100%;
-  grid-template-columns: 1.5fr 7fr 1.5fr;
-  grid-template-rows: 250px 150px 150px 100px;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 250px 250px 50px 100px;
   grid-template-areas:
     ". a ."
     ". b ."
@@ -373,11 +522,16 @@ p {
 .section-five {
   height: 450px;
   display: grid;
-  grid-template-columns: 2.5fr 5fr 2.5fr;
+  grid-template-columns: 0.5fr 7fr 0.5fr;
   grid-template-rows: 100px 350px;
   grid-template-areas:
     ". a ."
     ". b .";
+
+  @include breakpoint(mobile) {
+    height: 550px;
+    grid-template-rows: 100px 450px;
+  }
 }
 
 .section-five-a {
@@ -398,6 +552,7 @@ p {
   box-sizing: border-box;
   word-wrap: break-word;
   width: 100%;
+  max-width: 780px;
   height: 100%;
   padding: 30px 10px 30px 10px;
   background: #ffffff;
@@ -406,6 +561,33 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.five-b-box-m {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  width: 100%;
+  max-width: 780px;
+  height: 100%;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 30px rgba(69, 85, 153, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
 }
 
 .five-b-row {
@@ -469,11 +651,11 @@ p {
 }
 
 .section-six {
-  height: 150px;
+  height: 120px;
   display: grid;
   background-color: #f9fafc;
-  grid-template-columns: 4.5fr 1fr 4.5fr;
-  grid-template-rows: 60px 90px;
+  grid-template-columns: 2.5fr 5fr 2.5fr;
+  grid-template-rows: 50px 70px;
   grid-template-areas:
     ". a ."
     ". b .";
@@ -488,8 +670,17 @@ p {
 
 .section-six-b {
   grid-area: b;
-  justify-content: space-between;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.six-b-container {
   display: flex;
   align-items: center;
   flex-direction: row;
+
+  img {
+    margin: 0 5px 0 5px;
+  }
 }

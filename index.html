@@ -13,26 +13,30 @@
 <div class="section-one">
   <div class="section-one-a">
     <nav>
-      <ol class="one-a-list">
-        <li class="one-a-list-item">HOME</li>
-        <li class="one-a-list-item">ABOUT</li>
-        <li class="one-a-list-item">EXPERIENCE</li>
-        <li class="one-a-list-item">BLOG</li>
-        <li class="one-a-list-item">CONTACT</li>
+      <ol>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>EXPERIENCE</li>
+        <li>BLOG</li>
+        <li>CONTACT</li>
       </ol>
     </nav>
   </div>
 
   <div class="section-one-b">
-    <img src="img_self.png" alt="Amir Farhan"/>
+    <figure></figure>
   </div>
 
   <div class="section-one-c">
-    <div>
-      <h3>Hello!<br>I am <strong>Amir Farhan</strong></h3>
+    <div class="one-c-container">
+      <h3>Hello!</h3>
+      <h3>I am <strong>Amir Farhan</strong></h3>
       <h1>APPS DEVELOPER</h1>
-      <button class="one-c-btn one-c-btn-left">Hire Me</button>
-      <button class="one-c-btn one-c-btn-right">Download CV</button>
+      <div class="one-c-btn-container">
+        <button class="btn-left">Hire Me</button>
+        <button class="btn-right">Download CV</button>
+      </div>
+
     </div>
   </div>
 </div>
@@ -84,9 +88,9 @@
     <div class="three-d-holder">
       <img src="ic_left.png" alt="Left"/>
     </div>
-    <img src="img_exp_1.png" alt="My AIA"/>
-    <img src="img_exp_2.png" alt="Ookyo"/>
-    <img src="img_exp_3.png" alt="The Star Mobile"/>
+    <figure class="fig-1"></figure>
+    <figure class="fig-2"></figure>
+    <figure class="fig-3"></figure>
     <div class="three-d-holder">
       <img src="ic_right.png" alt="Right"/>
     </div>
@@ -140,12 +144,47 @@
         </div>
         <div class="five-b-holder">
           <label class="five-b-label" for="phone">Phone</label>
-          <input class="five-b-input" type="number" id="phone" name="name">
+          <input class="five-b-input" type="number" id="phone" name="phone">
         </div>
       </div>
+
       <div class="five-b-holder five-b-holder-one">
         <label class="five-b-label" for="message">Message</label>
         <textarea class="five-b-input" id="message" name="message" cols="" rows=""></textarea>
+      </div>
+      <div class="five-b-btn-holder">
+        <button class="five-b-btn">Get In Touch</button>
+      </div>
+    </div>
+
+    <div class="five-b-box-m">
+      <div class="five-b-row">
+        <div class="five-b-holder">
+          <label class="five-b-label" for="name-m">Name</label>
+          <input class="five-b-input" type="text" id="name-m" name="name">
+        </div>
+      </div>
+      <div class="five-b-row">
+        <div class="five-b-holder">
+          <label class="five-b-label" for="company-m">Company</label>
+          <input class="five-b-input" type="text" id="company-m" name="company">
+        </div>
+      </div>
+      <div class="five-b-row">
+        <div class="five-b-holder">
+          <label class="five-b-label" for="email-m">Email</label>
+          <input class="five-b-input" type="email" id="email-m" name="email">
+        </div>
+      </div>
+      <div class="five-b-row">
+        <div class="five-b-holder">
+          <label class="five-b-label" for="phone-m">Phone</label>
+          <input class="five-b-input" type="number" id="phone-m" name="phone">
+        </div>
+      </div>
+      <div class="five-b-holder five-b-holder-one">
+        <label class="five-b-label" for="message-m">Message</label>
+        <textarea class="five-b-input" id="message-m" name="message" cols="" rows=""></textarea>
       </div>
       <div class="five-b-btn-holder">
         <button class="five-b-btn">Get In Touch</button>
@@ -161,9 +200,11 @@
     <h4>FOLLOW ME</h4>
   </div>
   <div class="section-six-b">
-    <img src="ic_facebook.png" alt="Facebook"/>
-    <img src="ic_instagram.png" alt="Instagram"/>
-    <img src="ic_linkedin.png" alt="LinkedIn"/>
+    <div class="six-b-container">
+      <img src="ic_facebook.png" alt="Facebook"/>
+      <img src="ic_instagram.png" alt="Instagram"/>
+      <img src="ic_linkedin.png" alt="LinkedIn"/>
+    </div>
   </div>
 
 </div>

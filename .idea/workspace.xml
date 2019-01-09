@@ -23,8 +23,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+                <state relative-caret-position="375">
+                  <caret line="30" column="31" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="31" />
+                  <folding>
+                    <element signature="n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -32,12 +35,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="436">
-                  <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+                <state relative-caret-position="347">
+                  <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1590">
+                  <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -59,17 +71,30 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>style=&quot;display: inline-block&quot;</find>
-      <find>dumm</find>
       <find>hire me</find>
       <find>respond-to</find>
       <find>body</find>
+      <find>section-three</find>
+      <find>breakpoint</find>
+      <find>spacing</find>
+      <find>h3</find>
+      <find>h4</find>
+      <find>dumm</find>
+      <find>dummy</find>
+      <find>one-c-</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;topbar&quot;</replace>
+      <replace>spacing dummy-box-one</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,7 +180,9 @@
       <workItem from="1546483931453" duration="199000" />
       <workItem from="1546487056694" duration="3000" />
       <workItem from="1546610422152" duration="12508000" />
-      <workItem from="1546874438565" duration="4187000" />
+      <workItem from="1546874438565" duration="9681000" />
+      <workItem from="1546925910904" duration="132000" />
+      <workItem from="1547040104078" duration="12343000" />
     </task>
     <task id="LOCAL-00001" summary="[] init nav">
       <created>1546358693981</created>
@@ -276,11 +303,116 @@
       <option name="project" value="LOCAL" />
       <updated>1546877426681</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[] play around with mixin">
+      <created>1546879061726</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546879061726</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[] remove dummy">
+      <created>1546879125809</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1546879125809</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[] remove black bg">
+      <created>1546879191705</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546879191705</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[] remove body css">
+      <created>1546880911535</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546880911536</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[] limit breakpoint to only 3, desktop, tablet, mobile&#10;[] hide exp when on mobile">
+      <created>1546883884505</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1546883884505</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[] hide exp on tablet&#10;[] flex column on tablet and mobile for section two">
+      <created>1546884613742</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1546884613742</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[] wip section one">
+      <created>1547043904692</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547043904692</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[] wip section one 1">
+      <created>1547046071077</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547046071077</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[] wip section one 2&#10;[] done tablet, desktop">
+      <created>1547047542098</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547047542098</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[] done section 1">
+      <created>1547047874931</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1547047874931</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[] clean up a bit">
+      <created>1547048234284</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1547048234284</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[] section three wip 1">
+      <created>1547049221419</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547049221419</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[] section three and four done">
+      <created>1547050084814</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547050084814</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[] section six done&#10;[] partial section 5 done&#10;[] left for mobile">
+      <created>1547051719544</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547051719544</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[] done responsive">
+      <created>1547052444532</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547052444532</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29234000" />
+    <option name="totallyTimeSpent" value="47203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -297,9 +429,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -308,14 +441,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[] init nav" />
-    <MESSAGE value="[] init scss" />
-    <MESSAGE value="[] wip nav 1" />
-    <MESSAGE value="[] init top section" />
-    <MESSAGE value="[] added image&#10;[] added base grid&#10;[] added flex for buttons" />
-    <MESSAGE value="[] added more space on the edge" />
-    <MESSAGE value="[] finished section one" />
     <MESSAGE value="[] lay down background image for section two&#10;[] added image for section two" />
     <MESSAGE value="[] completed section two" />
     <MESSAGE value="[] init section three" />
@@ -326,7 +462,22 @@
     <MESSAGE value="[] completed section 6" />
     <MESSAGE value="[] figuring out mixin" />
     <MESSAGE value="[] using mixin by cerah" />
-    <option name="LAST_COMMIT_MESSAGE" value="[] using mixin by cerah" />
+    <MESSAGE value="[] play around with mixin" />
+    <MESSAGE value="[] remove dummy" />
+    <MESSAGE value="[] remove black bg" />
+    <MESSAGE value="[] remove body css" />
+    <MESSAGE value="[] limit breakpoint to only 3, desktop, tablet, mobile&#10;[] hide exp when on mobile" />
+    <MESSAGE value="[] hide exp on tablet&#10;[] flex column on tablet and mobile for section two" />
+    <MESSAGE value="[] wip section one" />
+    <MESSAGE value="[] wip section one 1" />
+    <MESSAGE value="[] wip section one 2&#10;[] done tablet, desktop" />
+    <MESSAGE value="[] done section 1" />
+    <MESSAGE value="[] clean up a bit" />
+    <MESSAGE value="[] section three wip 1" />
+    <MESSAGE value="[] section three and four done" />
+    <MESSAGE value="[] section six done&#10;[] partial section 5 done&#10;[] left for mobile" />
+    <MESSAGE value="[] done responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="[] done responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.sass" />
@@ -334,26 +485,10 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-        </state>
-      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ic_graphic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img_exp_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img_self.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img_exp_2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img_exp_3_neo.png" />
@@ -382,17 +517,39 @@
     <entry file="file://$PROJECT_DIR$/ic_left.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
+    <entry file="file://$PROJECT_DIR$/img_exp_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_self.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        <state relative-caret-position="1590">
+          <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bg_section_four_small.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img_exp_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
         </state>
       </provider>
     </entry>
