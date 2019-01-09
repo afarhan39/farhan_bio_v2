@@ -89,7 +89,7 @@ p {
 
 .spacing {
   display: block;
-  height: 100px;
+  height: 20px;
   width: 100%;
 }
 
@@ -281,6 +281,16 @@ p {
     ". b ."
     ". c ."
     ". d .";
+
+  @include breakpoint(mobile) {
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1.5fr 7fr 1.5fr;
+    grid-template-rows: 100px 250px;
+    grid-template-areas:
+      ". a ."
+      ". d .";
+  }
 }
 
 .section-three-a {
@@ -294,11 +304,15 @@ p {
   grid-area: b;
   display: flex;
   flex-direction: row-reverse;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .three-b-box {
   box-sizing: border-box;
-  width: 370px;
+  max-width: 370px;
   word-wrap: break-word;
   padding: 15px;
   background: #ffffff;
@@ -330,6 +344,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .three-c-timeline {
@@ -344,8 +362,7 @@ p {
 
 .three-c-thumb {
   z-index: 200;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 10% 0 10%;
 }
 
 .section-three-d {
@@ -360,6 +377,10 @@ p {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
 }
 
 .three-d-holder-img {
