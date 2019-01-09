@@ -499,6 +499,12 @@ p {
   grid-template-rows: 100px 350px;
   grid-template-areas: ". a ." ". b .";
 }
+@media (max-width: 644px) and (min-width: 320px) {
+  .section-five {
+    height: 550px;
+    grid-template-rows: 100px 450px;
+  }
+}
 
 .section-five-a {
   grid-area: a;
@@ -527,6 +533,36 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+@media (max-width: 644px) and (min-width: 320px) {
+  .five-b-box {
+    display: none;
+  }
+}
+
+.five-b-box-m {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  width: 100%;
+  max-width: 780px;
+  height: 100%;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 30px rgba(69, 85, 153, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 2560px) and (min-width: 769px) {
+  .five-b-box-m {
+    display: none;
+  }
+}
+@media (max-width: 1024px) and (min-width: 645px) {
+  .five-b-box-m {
+    display: none;
+  }
 }
 
 .five-b-row {
@@ -590,11 +626,11 @@ p {
 }
 
 .section-six {
-  height: 150px;
+  height: 120px;
   display: grid;
   background-color: #f9fafc;
   grid-template-columns: 2.5fr 5fr 2.5fr;
-  grid-template-rows: 60px 90px;
+  grid-template-rows: 50px 70px;
   grid-template-areas: ". a ." ". b .";
 }
 

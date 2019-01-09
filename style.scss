@@ -518,6 +518,11 @@ p {
   grid-template-areas:
     ". a ."
     ". b .";
+
+  @include breakpoint(mobile) {
+    height: 550px;
+    grid-template-rows: 100px 450px;
+  }
 }
 
 .section-five-a {
@@ -547,6 +552,33 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.five-b-box-m {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  width: 100%;
+  max-width: 780px;
+  height: 100%;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 30px rgba(69, 85, 153, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include breakpoint(desktop) {
+    display: none;
+  }
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
 }
 
 .five-b-row {
@@ -610,11 +642,11 @@ p {
 }
 
 .section-six {
-  height: 150px;
+  height: 120px;
   display: grid;
   background-color: #f9fafc;
   grid-template-columns: 2.5fr 5fr 2.5fr;
-  grid-template-rows: 60px 90px;
+  grid-template-rows: 50px 70px;
   grid-template-areas:
     ". a ."
     ". b .";
