@@ -23,11 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="30" column="31" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="31" />
-                  <folding>
-                    <element signature="n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="306">
+                  <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -39,17 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="347">
-                  <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1590">
-                  <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
+                <state relative-caret-position="478">
+                  <caret line="485" column="20" selection-start-line="485" selection-start-column="20" selection-end-line="485" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -82,6 +70,7 @@
       <find>dumm</find>
       <find>dummy</find>
       <find>one-c-</find>
+      <find>section-four</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;topbar&quot;</replace>
@@ -412,7 +401,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47203000" />
+    <option name="totallyTimeSpent" value="47506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -485,8 +474,8 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ic_graphic.png">
       <provider selected="true" editor-type-id="images" />
@@ -538,18 +527,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#8;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="104" column="8" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
+        <state relative-caret-position="478">
+          <caret line="485" column="20" selection-start-line="485" selection-start-column="20" selection-end-line="485" selection-end-column="20" />
         </state>
       </provider>
     </entry>
