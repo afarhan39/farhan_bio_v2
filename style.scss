@@ -94,20 +94,21 @@ p {
 }
 
 .section-one {
-  height: 600px;
+  height: 550px;
   display: grid;
   grid-template-columns: 1.5fr 3.5fr 1fr 2.5fr 1.5fr;
-  grid-template-rows: 100px 400px 100px;
+  grid-template-rows: 50px 400px 100px;
   grid-template-areas:
     ". a . b ."
     ". c . b ."
     ". c . b .";
 
   @include breakpoint(tablet) {
+    grid-template-columns: 3.5fr 2.5fr;
     grid-template-areas:
-      ". c . b ."
-      ". c . b ."
-      ". c . b .";
+      "a b"
+      "c b"
+      "c b";
   }
   @include breakpoint(mobile) {
     grid-template-areas:
@@ -120,9 +121,6 @@ p {
 .section-one-a {
   grid-area: a;
 
-  @include breakpoint(tablet) {
-    display: none;
-  }
   @include breakpoint(mobile) {
     display: none;
   }
@@ -132,7 +130,6 @@ p {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  padding: 0 10% 0 10%;
 }
 
 .one-a-list-item {
@@ -144,6 +141,16 @@ p {
 
 .section-one-b {
   grid-area: b;
+
+  figure {
+    margin: 0;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url("img_self.png");
+    width: 100%;
+    height: 550px;
+  }
 }
 
 .section-one-c {
@@ -162,12 +169,12 @@ p {
     flex-direction: column;
     align-items: center;
   }
-  @include breakpoint(mobile) {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  //@include breakpoint(mobile) {
+  //  justify-content: center;
+  //  display: flex;
+  //  flex-direction: column;
+  //  align-items: center;
+  //}
 }
 
 .one-c-btn-container {
@@ -187,6 +194,7 @@ p {
 .one-c-btn {
   width: 134px;
   height: 40px;
+  margin: 5px;
 }
 
 .one-c-btn-left {
