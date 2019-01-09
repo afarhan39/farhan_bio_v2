@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30254c96-d118-4183-bf90-1518ed0c5e4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bg_section_four_small.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -25,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="775">
-                  <caret line="105" column="30" lean-forward="true" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
+                <state relative-caret-position="35">
+                  <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
@@ -38,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
-                  <caret line="382" column="3" selection-start-line="382" selection-start-column="3" selection-end-line="382" selection-end-column="3" />
+                <state relative-caret-position="-91">
+                  <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
                 </state>
               </provider>
             </entry>
@@ -48,7 +47,7 @@
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1590">
-                  <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+                  <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -73,10 +72,12 @@
       <find>hire me</find>
       <find>respond-to</find>
       <find>body</find>
-      <find>dumm</find>
       <find>section-three</find>
       <find>breakpoint</find>
       <find>spacing</find>
+      <find>h3</find>
+      <find>h4</find>
+      <find>dumm</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;topbar&quot;</replace>
@@ -96,8 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/style.sass" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -177,7 +178,7 @@
       <workItem from="1546610422152" duration="12508000" />
       <workItem from="1546874438565" duration="9681000" />
       <workItem from="1546925910904" duration="132000" />
-      <workItem from="1547040104078" duration="8871000" />
+      <workItem from="1547040104078" duration="11225000" />
     </task>
     <task id="LOCAL-00001" summary="[] init nav">
       <created>1546358693981</created>
@@ -375,11 +376,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547048234284</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="[] section three wip 1">
+      <created>1547049221419</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547049221419</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[] section three and four done">
+      <created>1547050084814</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547050084814</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43731000" />
+    <option name="totallyTimeSpent" value="46085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -419,8 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[] init top section" />
-    <MESSAGE value="[] added image&#10;[] added base grid&#10;[] added flex for buttons" />
     <MESSAGE value="[] added more space on the edge" />
     <MESSAGE value="[] finished section one" />
     <MESSAGE value="[] lay down background image for section two&#10;[] added image for section two" />
@@ -444,7 +457,9 @@
     <MESSAGE value="[] wip section one 2&#10;[] done tablet, desktop" />
     <MESSAGE value="[] done section 1" />
     <MESSAGE value="[] clean up a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="[] clean up a bit" />
+    <MESSAGE value="[] section three wip 1" />
+    <MESSAGE value="[] section three and four done" />
+    <option name="LAST_COMMIT_MESSAGE" value="[] section three and four done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/style.sass" />
@@ -456,9 +471,6 @@
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ic_graphic.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img_exp_2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img_exp_3_neo.png" />
@@ -496,24 +508,27 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
-          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+          <caret line="126" column="1" lean-forward="true" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bg_section_four_small.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="105" column="30" lean-forward="true" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/img_exp_2.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="382" column="3" selection-start-line="382" selection-start-column="3" selection-end-line="382" selection-end-column="3" />
+        <state relative-caret-position="-91">
+          <caret line="511" lean-forward="true" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
         </state>
       </provider>
     </entry>
